@@ -5,6 +5,7 @@
 ----
 **<font color="red">接口变动、函数式接口、lambda表达式、流操作（外部迭代到内部迭代、并行操作）、Optional</font>**  
 **<font color="red">阅读java.util.function(Function)与java.util.stream(Collector)</font>**
+**<font color="red">第八章 设计架构原则、使用Lambda编写并发程序，暂未看，后续跟进</font>**
 
 + Lambda表达式
 + 函数接口
@@ -47,3 +48,21 @@
 	3. 第三个参数是为了处理并发操作，所以在使用时需要比较小心，对于其中的参数2为二元函数，其两个参数可以不是同种类型，但是对于参数3，由于其是为了处理并行操作的（对不同线程的结果进行汇聚），所以其函数类型必须与参数2兼容。
 + <font color="red">Spliterator并行迭代器的作用</font>
 + map的computeIfAbsent操作，foreach操作
++ reduce的限制
+	+ 初始值必须为组合函数的恒等值
+	+ 组合操作必须符合结合定律
+	+ 避免持有锁
+	+ 同时调用paraller与sequential，则最后调用的生效
++ 性能（fork/join框架）
+	+ 数据大小
+	+ 源数据结构（分割越容易越好），arraylist、数组比较好，hashSet、treeSet次之，linked最差
+	+ 装箱
+	+ 核的数量（可使用）
+	+ 单元处理开销（越大越好）
++ Arrays提供的parallelPrefix、parallelSetAll、parallelSort会改变原有数组
++ <font color="red">如何使用Lambda表达式提高非集合代码的质量</font>
+	+ 代码不断的查询和操作某对象，目的是为了最后给该对象设一个值
+	+ 继承的目的只是为了覆盖一个方法（匿名内部类runable）
+	+ 如果有一个整体上大概相似的模式，只是行为上有所不同（lambda传递的是模式），就可以试着加入一个Lambda 表达式（重复的东西写两遍）
++ Debug
+	+ peek能查看流中每个元素的值，同时继续操作流，可以在其间设置断点
