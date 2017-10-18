@@ -3,7 +3,8 @@
 >date:2017年10月16日14:49:30
 
 ----
-**<font color="red">接口变动、函数式接口、lambda表达式、流操作（外部迭代到内部迭代、并行操作）、Optional</font>**
+**<font color="red">接口变动、函数式接口、lambda表达式、流操作（外部迭代到内部迭代、并行操作）、Optional</font>**  
+**<font color="red">阅读java.util.function(Function)与java.util.stream(Collector)</font>**
 
 + Lambda表达式
 + 函数接口
@@ -37,3 +38,12 @@
 	+出现顺序依赖于数据源和对流的操作 
 + 流的并行操作
 + 数据分块（partitioningBy）与分组(groupBy)，Collectors.joining
++ <font color="red">自定义组合收集器（有助于理解收集器的设计思路）</font>
++ 理解重构与定制收集器的思路
++ <font color="red">理解Collector与Function接口的意图</font>
++ reduce的1、2、3参数参数接口
+	1. 返回Optional对象
+	2. 需要提供一个初始值，并且两个参数的类型必须相同
+	3. 第三个参数是为了处理并发操作，所以在使用时需要比较小心，对于其中的参数2为二元函数，其两个参数可以不是同种类型，但是对于参数3，由于其是为了处理并行操作的（对不同线程的结果进行汇聚），所以其函数类型必须与参数2兼容。
++ <font color="red">Spliterator并行迭代器的作用</font>
++ map的computeIfAbsent操作，foreach操作
