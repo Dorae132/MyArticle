@@ -3,8 +3,10 @@
 >date:2017年10月16日14:49:30
 
 ----
+
+**<font color="red">Java 8 最主要的新特性就是 Lambda 表达式以及与此相关的特性，如流 (streams)、方法引用 (method references)、功能接口 (functional interfaces)</font>**  
 **<font color="red">接口变动、函数式接口、lambda表达式、流操作（外部迭代到内部迭代、并行操作）、Optional</font>**  
-**<font color="red">阅读java.util.function(Function)与java.util.stream(Collector)</font>**
+**<font color="red">阅读java.util.function(Function)与java.util.stream(Collector)</font>**  
 **<font color="red">第八章 设计架构原则、使用Lambda编写并发程序，暂未看，后续跟进</font>**
 
 + Lambda表达式
@@ -15,7 +17,7 @@
 + 集合类流操作的实现原理，内部迭代器，spliterator（并行迭代器）
 + 建造者模式
 + 尽量避免副作用，唯一例外的是foreach，因为其表示一个终结方法
-+ Lambda表达式重载的工作原理
++ Lambda表达式重载的工作原理，本质上上一个匿名方法
 + <font color="red">为什么Supplier<T>可以和匿名内部类一起工作，实现向后兼容？</font>
 + Java中的泛型基于对其是Object的假设，所以有了装箱类型
 + Java8中为了减少集合中频繁的装箱与拆箱操作，提供了相应的方法，Integer、Long、Double，应该尽量减少对装箱类型集合的操作（<font color="red">好像更慢了20倍左右，目前未知原因</font>）
@@ -66,4 +68,26 @@
 	+ 如果有一个整体上大概相似的模式，只是行为上有所不同（lambda传递的是模式），就可以试着加入一个Lambda 表达式（重复的东西写两遍）
 + Debug
 	+ peek能查看流中每个元素的值，同时继续操作流，可以在其间设置断点
-+ 迭代器的机制：对集合中的元素进行顺序访问，并能进行某些操作。其本质是在封装的对象集合上做循环
+
+----
+
+## Java 8 被动迭代式特性介绍
+
++ 迭代器的机制：对集合中的元素进行顺序访问，并能进行某些操作。其本质是在封装的对象集合上做循环，根据控制权限可以分为主动迭代、被动迭代。Spliterator并行迭代器（fork/join框架）
++ map提供了default merge函数。
++ <font color="red">Java 8 提供了全新的遍历对象集合方式，该方式主要包含被动迭代、流、并行流三种方法，它的可读性更好、不易出错、更容易并行化，foreach其实就是内部迭代，重写了collection的foreach</font>
++ foresach多线程环境下线程安全
++ 集合和数组都可以用来产生流，因此称作数据流。流不存储集合中的元素，相反，流是通过管道操作来自数据源的值序列的一种机制
++ Stream 表面上看与一个集合很类似，允许你改变和获取数据，但是实际上它与集合是有很大区别的：
+	+ Stream 自己不会存储元素，元素可能被存储在底层的集合中，或者根据需要产生出来
+	+ Stream 操作符不会改变源对象，相反，它们会返回一个持有结果的新 Stream
+	+ Stream 操作符可能是延迟执行的，这意味着它们会等到需要结果的时候才执行
++ <font color="red">Spliterator接口的设计思想，可以使用其实现并行迭代</font>
++ Stream是一次循环完成所有操作，stream.generate()生成自己的流，stream.iterate
+
+----
+
+## 深入理解java函数式编程笔记
+> http://www.cnblogs.com/CarpenterLee/p/5936664.html
+
++ Lambda的类型就是对应函数接口的类型
