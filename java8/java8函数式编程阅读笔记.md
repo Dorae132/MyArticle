@@ -101,3 +101,4 @@
 + [<font color="red">深入理解Stream流水线</font>](http://www.cnblogs.com/CarpenterLee/p/6637118.html)。
 + Lambda相当于回调
 + **[Stream的Pipeline、Spliterator](http://www.cnblogs.com/CarpenterLee/p/6637118.html)**
++ 实际上Stream API内部实现的的本质，就是如何重载Sink的这四个接口方法
