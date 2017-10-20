@@ -6,7 +6,7 @@
 
 ## 目录
 
-+ ## Git
++ ## [Git](./Git/)
 	+ [git踩坑 ](./Git/Git踩坑记.md)
-+ ## java8
++ ## [java8](./java8/)
 	+ [java8函数式编程阅读笔记](./java8/java8函数式编程阅读笔记.md)
