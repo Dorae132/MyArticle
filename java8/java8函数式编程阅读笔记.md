@@ -8,6 +8,8 @@
 **<font color="red">接口变动、函数式接口、lambda表达式、流操作（外部迭代到内部迭代、并行操作）、Optional</font>**  
 **<font color="red">阅读java.util.function(Function)与java.util.stream(Collector)</font>**  
 **<font color="red">第八章 设计架构原则、使用Lambda编写并发程序，暂未看，后续跟进</font>**
+**<font color="red">JVM内部是通过invokedynamic指令来实现Lambda表达式的</font>**
+**Stream的两个核心流水线、自动并行**
 
 + Lambda表达式
 + 函数接口
@@ -87,7 +89,15 @@
 
 ----
 
-## 深入理解java函数式编程笔记
-> http://www.cnblogs.com/CarpenterLee/p/5936664.html
+## [深入理解java函数式编程笔记](http://www.cnblogs.com/CarpenterLee/p/5936664.html)
 
 + Lambda的类型就是对应函数接口的类型
++ **无存储：**stream不是一种数据结构，它只是某种数据源的一个视图，数据源可以是一个数组，Java容器或I/O channel等。
++ **为函数式编程而生：**对stream的任何修改都不会修改背后的数据源，比如对stream执行过滤操作并不会删除被过滤的元素，而是会产生一个不包含被过滤元素的新stream。
++ **惰式执行：**stream上的操作并不会立即执行，只有等到用户真正需要结果的时候才会执行。
++ **可消费性：**stream只能被“消费”一次，一旦遍历过就会失效，就像容器的迭代器那样，想要再次遍历必须重新生成。
++ 通俗的讲flatMap()的作用就相当于把原stream中的所有元素都"摊平"之后组成的Stream，转换前后元素的个数和类型都可能会改变。
++ [收集器](http://www.cnblogs.com/CarpenterLee/p/6550212.html)挺好。
++ [<font color="red">深入理解Stream流水线</font>](http://www.cnblogs.com/CarpenterLee/p/6637118.html)。
++ Lambda相当于回调
++ **[Stream的Pipeline、Spliterator](http://www.cnblogs.com/CarpenterLee/p/6637118.html)**
