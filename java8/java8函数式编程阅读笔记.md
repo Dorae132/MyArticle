@@ -10,6 +10,7 @@
 **<font color="red">第八章 设计架构原则、使用Lambda编写并发程序，暂未看，后续跟进</font>**
 **<font color="red">JVM内部是通过invokedynamic指令来实现Lambda表达式的</font>**
 **Stream的两个核心流水线、自动并行**
+**Stream如何并行、Lambda的执行原理**
 
 + Lambda表达式
 + 函数接口
@@ -102,3 +103,5 @@
 + Lambda相当于回调
 + **[Stream的Pipeline、Spliterator](http://www.cnblogs.com/CarpenterLee/p/6637118.html)**
 + 实际上Stream API内部实现的的本质，就是如何重载Sink的这四个接口方法
++ **事实上，除了打印之外其他场景都应避免使用副作用**  
+特别说明：副作用不应该被滥用，也许你会觉得在Stream.forEach()里进行元素收集是个不错的选择，就像下面代码中那样，但遗憾的是这样使用的正确性和效率都无法保证，因为Stream可能会并行执行。大多数使用副作用的地方都可以使用归约操作更安全和有效的完成
