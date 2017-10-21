@@ -8,8 +8,8 @@
 **<font color="red">接口变动、函数式接口、lambda表达式、流操作（外部迭代到内部迭代、并行操作）、Optional</font>**  
 **<font color="red">阅读java.util.function(Function)与java.util.stream(Collector)</font>**  
 **<font color="red">第八章 设计架构原则、使用Lambda编写并发程序，暂未看，后续跟进</font>**
-**<font color="red">JVM内部是通过invokedynamic指令来实现Lambda表达式的</font>**
-**Stream的两个核心流水线、自动并行**
+**<font color="red">JVM内部是通过invokedynamic指令来实现Lambda表达式的</font>**  
+**Stream的两个核心流水线、自动并行**  
 **Stream如何并行、Lambda的执行原理**
 
 + Lambda表达式
