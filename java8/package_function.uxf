@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>7</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>210</y>
-      <w>147</w>
-      <h>133</h>
+      <y>0</y>
+      <w>168</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 Function
@@ -18,10 +18,10 @@ Function
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>847</x>
-      <y>490</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1344</x>
+      <y>560</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 Function</panel_attributes>
@@ -30,10 +30,10 @@ Function</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1148</x>
-      <y>294</y>
-      <w>77</w>
-      <h>28</h>
+      <x>840</x>
+      <y>272</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 Supplier</panel_attributes>
@@ -42,10 +42,10 @@ Supplier</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1316</x>
-      <y>294</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1048</x>
+      <y>296</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 Consumer</panel_attributes>
@@ -54,10 +54,10 @@ Consumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2135</x>
-      <y>434</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1432</x>
+      <y>256</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 Predicate</panel_attributes>
@@ -66,10 +66,10 @@ Predicate</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>847</x>
-      <y>553</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1344</x>
+      <y>728</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 UnaryOperator</panel_attributes>
@@ -78,21 +78,21 @@ UnaryOperator</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>875</x>
-      <y>511</y>
-      <w>21</w>
-      <h>56</h>
+      <x>1376</x>
+      <y>584</y>
+      <w>24</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1435</x>
-      <y>294</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1184</x>
+      <y>296</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 BiConsumer</panel_attributes>
@@ -101,10 +101,10 @@ BiConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>959</x>
-      <y>490</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1472</x>
+      <y>560</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 BiFunction</panel_attributes>
@@ -113,10 +113,10 @@ BiFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>959</x>
-      <y>553</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1472</x>
+      <y>728</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 BinaryOperator</panel_attributes>
@@ -125,21 +125,21 @@ BinaryOperator</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>994</x>
-      <y>511</y>
-      <w>21</w>
-      <h>56</h>
+      <x>1512</x>
+      <y>584</y>
+      <w>24</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2135</x>
-      <y>483</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1560</x>
+      <y>256</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 BiPredicate</panel_attributes>
@@ -148,10 +148,10 @@ BiPredicate</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1148</x>
-      <y>462</y>
-      <w>77</w>
-      <h>28</h>
+      <x>840</x>
+      <y>464</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 BooleanSupplier</panel_attributes>
@@ -160,10 +160,10 @@ BooleanSupplier</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>721</x>
-      <y>329</y>
-      <w>126</w>
-      <h>28</h>
+      <x>1168</x>
+      <y>776</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleBinaryOperator</panel_attributes>
@@ -172,10 +172,10 @@ DoubleBinaryOperator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1316</x>
-      <y>420</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1048</x>
+      <y>440</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleConsumer</panel_attributes>
@@ -184,10 +184,10 @@ DoubleConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
-      <y>490</y>
-      <w>112</w>
-      <h>28</h>
+      <x>1168</x>
+      <y>560</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleFunction</panel_attributes>
@@ -196,10 +196,10 @@ DoubleFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2135</x>
-      <y>616</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1432</x>
+      <y>400</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoublePredicate</panel_attributes>
@@ -208,10 +208,10 @@ DoublePredicate</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1148</x>
-      <y>420</y>
-      <w>77</w>
-      <h>28</h>
+      <x>840</x>
+      <y>416</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleSupplier</panel_attributes>
@@ -220,10 +220,10 @@ DoubleSupplier</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
-      <y>581</y>
-      <w>112</w>
-      <h>28</h>
+      <x>1168</x>
+      <y>664</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleToIntFunction</panel_attributes>
@@ -232,10 +232,10 @@ DoubleToIntFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
-      <y>532</y>
-      <w>112</w>
-      <h>28</h>
+      <x>1168</x>
+      <y>608</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleToLongFunction</panel_attributes>
@@ -244,10 +244,10 @@ DoubleToLongFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>721</x>
-      <y>287</y>
-      <w>126</w>
-      <h>28</h>
+      <x>1168</x>
+      <y>728</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleUnaryOperator</panel_attributes>
@@ -256,10 +256,10 @@ DoubleUnaryOperator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>329</y>
-      <w>126</w>
-      <h>28</h>
+      <x>848</x>
+      <y>776</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntBinaryOperator</panel_attributes>
@@ -268,10 +268,10 @@ IntBinaryOperator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1316</x>
-      <y>336</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1048</x>
+      <y>344</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntConsumer</panel_attributes>
@@ -280,10 +280,10 @@ IntConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>448</x>
-      <y>490</y>
-      <w>112</w>
-      <h>28</h>
+      <x>864</x>
+      <y>560</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntFunction</panel_attributes>
@@ -292,10 +292,10 @@ IntFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2135</x>
-      <y>532</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1432</x>
+      <y>304</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntPredicate</panel_attributes>
@@ -304,10 +304,10 @@ IntPredicate</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1148</x>
-      <y>336</y>
-      <w>77</w>
-      <h>28</h>
+      <x>840</x>
+      <y>320</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntSupplier</panel_attributes>
@@ -316,10 +316,10 @@ IntSupplier</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>448</x>
-      <y>532</y>
-      <w>112</w>
-      <h>28</h>
+      <x>864</x>
+      <y>608</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntToDoubleFunction</panel_attributes>
@@ -328,10 +328,10 @@ IntToDoubleFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>287</y>
-      <w>126</w>
-      <h>28</h>
+      <x>848</x>
+      <y>728</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntUnaryOperator</panel_attributes>
@@ -340,10 +340,10 @@ IntUnaryOperator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>581</x>
-      <y>329</y>
-      <w>126</w>
-      <h>28</h>
+      <x>1008</x>
+      <y>776</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongBinaryOperator</panel_attributes>
@@ -352,10 +352,10 @@ LongBinaryOperator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1316</x>
-      <y>378</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1048</x>
+      <y>392</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongConsumer</panel_attributes>
@@ -364,10 +364,10 @@ LongConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>707</x>
-      <y>490</y>
-      <w>112</w>
-      <h>28</h>
+      <x>1016</x>
+      <y>560</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongFunction</panel_attributes>
@@ -376,10 +376,10 @@ LongFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2135</x>
-      <y>574</y>
-      <w>77</w>
-      <h>28</h>
+      <x>1432</x>
+      <y>352</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongPredicate</panel_attributes>
@@ -388,10 +388,10 @@ LongPredicate</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1148</x>
-      <y>378</y>
-      <w>77</w>
-      <h>28</h>
+      <x>840</x>
+      <y>368</y>
+      <w>88</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongSupplier</panel_attributes>
@@ -400,10 +400,10 @@ LongSupplier</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>707</x>
-      <y>532</y>
-      <w>112</w>
-      <h>28</h>
+      <x>1016</x>
+      <y>608</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongToDoubleFunction</panel_attributes>
@@ -412,10 +412,10 @@ LongToDoubleFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>707</x>
-      <y>581</y>
-      <w>112</w>
-      <h>28</h>
+      <x>1016</x>
+      <y>664</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongToIntFunction</panel_attributes>
@@ -424,10 +424,10 @@ LongToIntFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>581</x>
-      <y>287</y>
-      <w>126</w>
-      <h>28</h>
+      <x>1008</x>
+      <y>728</y>
+      <w>144</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 LongUnaryOperator</panel_attributes>
@@ -436,10 +436,10 @@ LongUnaryOperator</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1435</x>
-      <y>420</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1184</x>
+      <y>440</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ObjDoubleConsumer</panel_attributes>
@@ -448,10 +448,10 @@ ObjDoubleConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1435</x>
-      <y>336</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1184</x>
+      <y>344</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ObjIntConsumer</panel_attributes>
@@ -460,10 +460,10 @@ ObjIntConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1435</x>
-      <y>378</y>
-      <w>98</w>
-      <h>28</h>
+      <x>1184</x>
+      <y>392</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ObjLongConsumer</panel_attributes>
@@ -472,10 +472,10 @@ ObjLongConsumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>959</x>
-      <y>651</y>
-      <w>105</w>
-      <h>28</h>
+      <x>672</x>
+      <y>560</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ToDoubleBiFunction</panel_attributes>
@@ -484,10 +484,10 @@ ToDoubleBiFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>651</y>
-      <w>105</w>
-      <h>28</h>
+      <x>512</x>
+      <y>560</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ToDoubleFunction</panel_attributes>
@@ -496,10 +496,10 @@ ToDoubleFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>959</x>
-      <y>700</y>
-      <w>105</w>
-      <h>28</h>
+      <x>672</x>
+      <y>616</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ToIntBiFunction</panel_attributes>
@@ -508,10 +508,10 @@ ToIntBiFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>700</y>
-      <w>105</w>
-      <h>28</h>
+      <x>512</x>
+      <y>616</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ToIntFunction</panel_attributes>
@@ -520,10 +520,10 @@ ToIntFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>959</x>
-      <y>756</y>
-      <w>105</w>
-      <h>28</h>
+      <x>672</x>
+      <y>680</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ToLongBiFunction</panel_attributes>
@@ -532,10 +532,10 @@ ToLongBiFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>756</y>
-      <w>105</w>
-      <h>28</h>
+      <x>512</x>
+      <y>680</y>
+      <w>120</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 ToLongFunction</panel_attributes>
@@ -544,13 +544,108 @@ ToLongFunction</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>448</x>
-      <y>581</y>
-      <w>112</w>
-      <h>28</h>
+      <x>864</x>
+      <y>664</y>
+      <w>128</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
 IntToLongFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1336</x>
+      <y>792</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>一元操作符
+传入参数类型与
+返回类型相同
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1424</x>
+      <y>184</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+返回一个
+boolean结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1136</x>
+      <y>200</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+无返回，
+纯消费
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>824</x>
+      <y>184</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>无参数传入
+返回一个结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1336</x>
+      <y>496</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+返回一个结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1472</x>
+      <y>792</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>二元操作符
+返回类型与传入的
+两个参数类型相同
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1464</x>
+      <y>496</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+返回一个结果
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
