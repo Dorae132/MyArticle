@@ -24,7 +24,8 @@ Function
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-Function</panel_attributes>
+Function
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -36,7 +37,8 @@ Function</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-Supplier</panel_attributes>
+Supplier
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -48,7 +50,8 @@ Supplier</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-Consumer</panel_attributes>
+Consumer
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -60,7 +63,8 @@ Consumer</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-Predicate</panel_attributes>
+Predicate
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -95,7 +99,8 @@ UnaryOperator</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-BiConsumer</panel_attributes>
+BiConsumer
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -107,7 +112,8 @@ BiConsumer</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-BiFunction</panel_attributes>
+BiFunction
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -142,7 +148,8 @@ BinaryOperator</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-BiPredicate</panel_attributes>
+BiPredicate
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -646,6 +653,20 @@ boolean结果
     <panel_attributes>传入一个参数，
 返回一个结果
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>632</x>
+      <y>264</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>因为返回的为基本类型，
+所以才有这么多相似接口
+
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
