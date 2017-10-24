@@ -12,7 +12,8 @@
 **Stream的两个核心流水线、自动并行**  
 **Stream如何并行、Lambda的执行原理**
 **Lambda要尽量避免副作用**
-**java7的fork/join框架待跟进**
+**java7的fork/join框架待跟进**  
+**<span style="color:red">测试时注意即时编译与gc的影响</span>**
 
 + Lambda表达式
 + 函数接口
