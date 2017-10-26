@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Function
+--
+#Operation(i: int): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1344</x>
+      <y>560</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Function
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>272</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Supplier
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1048</x>
+      <y>296</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Consumer
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1432</x>
+      <y>256</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Predicate
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1344</x>
+      <y>728</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+UnaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1376</x>
+      <y>584</y>
+      <w>24</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1184</x>
+      <y>296</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+BiConsumer
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1472</x>
+      <y>560</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+BiFunction
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1472</x>
+      <y>728</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+BinaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1512</x>
+      <y>584</y>
+      <w>24</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1560</x>
+      <y>256</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+BiPredicate
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>464</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+BooleanSupplier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1168</x>
+      <y>776</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleBinaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1048</x>
+      <y>440</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleConsumer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1168</x>
+      <y>560</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1432</x>
+      <y>400</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoublePredicate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>416</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleSupplier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1168</x>
+      <y>664</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleToIntFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1168</x>
+      <y>608</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleToLongFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1168</x>
+      <y>728</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+DoubleUnaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>848</x>
+      <y>776</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntBinaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1048</x>
+      <y>344</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntConsumer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>560</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1432</x>
+      <y>304</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntPredicate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>320</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntSupplier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>608</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntToDoubleFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>848</x>
+      <y>728</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntUnaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>776</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongBinaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1048</x>
+      <y>392</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongConsumer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1016</x>
+      <y>560</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1432</x>
+      <y>352</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongPredicate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>368</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongSupplier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1016</x>
+      <y>608</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongToDoubleFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1016</x>
+      <y>664</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongToIntFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>728</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+LongUnaryOperator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1184</x>
+      <y>440</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ObjDoubleConsumer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1184</x>
+      <y>344</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ObjIntConsumer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1184</x>
+      <y>392</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ObjLongConsumer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>560</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ToDoubleBiFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>560</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ToDoubleFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>616</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ToIntBiFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>616</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ToIntFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>680</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ToLongBiFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>680</y>
+      <w>120</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ToLongFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>664</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+IntToLongFunction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1336</x>
+      <y>792</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>一元操作符
+传入参数类型与
+返回类型相同
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1424</x>
+      <y>184</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+返回一个
+boolean结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1136</x>
+      <y>200</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+无返回，
+纯消费
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>824</x>
+      <y>184</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>无参数传入
+返回一个结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1336</x>
+      <y>496</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+返回一个结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1472</x>
+      <y>792</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>二元操作符
+返回类型与传入的
+两个参数类型相同
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1464</x>
+      <y>496</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>传入一个参数，
+返回一个结果
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>632</x>
+      <y>264</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>因为返回的为基本类型，
+所以才有这么多相似接口
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
