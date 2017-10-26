@@ -1,65 +1,65 @@
-Ô­ÌûµØÖ·: http://topic.csdn.net/u/20110113/19/b0d5d506-4307-428b-a61d-7974aa66a2da.html
+ï»¿åŸå¸–åœ°å€: http://topic.csdn.net/u/20110113/19/b0d5d506-4307-428b-a61d-7974aa66a2da.html
 
-Ê×ÏÈÒªËµÃ÷µÄÊÇ£ºÕâÀï½éÉÜµÄ·½·¨¶¼ÊÇ´ó²¿·ÖÊÇ±¾ÈË¡°Îò¡±³öÀ´µÄ£¬ËùÒÔÍøÉÏÄÑÓĞÁ÷´«£¡
-ºÃ·½·¨²»ÄÜ×Ô¼ºË½²Ø£¬·ñÔò¾Í°×Ã¦ºõÕâ¼¸ÌìÁË£¬·ÖÏí¸øÓĞĞèÒªµÄÅóÓÑÃÇ¡£Èç¹ûÓĞ×ªÔØ£¬¾´Çë×¢Ã÷À´×Ô*CSDNÀÏµË*×÷Æ·¡£
-ºÇºÇ£¬¸ø×Ô¼º´ò¹ã¸æ£¬ÊµÔÚÊÇÎŞ³ÜÖ®¼«£¬È¨µ±ÎŞÁÄÖ®Ê±´ò×ÖÖ®ÓÃ¡£
-»¶Ó­Á÷´«£¬Îª×îÓÅĞãµÄ·Ö²¼Ê½°æ±¾¹ÜÀíÏµÍ³Git×öĞû´«£¡£¡
+é¦–å…ˆè¦è¯´æ˜çš„æ˜¯ï¼šè¿™é‡Œä»‹ç»çš„æ–¹æ³•éƒ½æ˜¯å¤§éƒ¨åˆ†æ˜¯æœ¬äººâ€œæ‚Ÿâ€å‡ºæ¥çš„ï¼Œæ‰€ä»¥ç½‘ä¸Šéš¾æœ‰æµä¼ ï¼
+å¥½æ–¹æ³•ä¸èƒ½è‡ªå·±ç§è—ï¼Œå¦åˆ™å°±ç™½å¿™ä¹è¿™å‡ å¤©äº†ï¼Œåˆ†äº«ç»™æœ‰éœ€è¦çš„æœ‹å‹ä»¬ã€‚å¦‚æœæœ‰è½¬è½½ï¼Œæ•¬è¯·æ³¨æ˜æ¥è‡ª*CSDNè€é‚“*ä½œå“ã€‚
+å‘µå‘µï¼Œç»™è‡ªå·±æ‰“å¹¿å‘Šï¼Œå®åœ¨æ˜¯æ— è€»ä¹‹æï¼Œæƒå½“æ— èŠä¹‹æ—¶æ‰“å­—ä¹‹ç”¨ã€‚
+æ¬¢è¿æµä¼ ï¼Œä¸ºæœ€ä¼˜ç§€çš„åˆ†å¸ƒå¼ç‰ˆæœ¬ç®¡ç†ç³»ç»ŸGitåšå®£ä¼ ï¼ï¼
 
-²½Öè£º
-1. ÏÂÔØ£ºhttp://loaden.googlecode.com/files/gitconfig.7z
-2. ½âÑ¹µ½£º<MsysGit°²×°Ä¿Â¼>/cmd/£¬ÀıÈç£ºD:\Program Files\Git\cmd
-3. ½øÈëBash£¬Ö´ĞĞgitconfig
+æ­¥éª¤ï¼š
+1. ä¸‹è½½ï¼šhttp://loaden.googlecode.com/files/gitconfig.7z
+2. è§£å‹åˆ°ï¼š<MsysGitå®‰è£…ç›®å½•>/cmd/ï¼Œä¾‹å¦‚ï¼šD:\Program Files\Git\cmd
+3. è¿›å…¥Bashï¼Œæ‰§è¡Œgitconfig
 
-¸ã¶¨Ê²Ã´ÁË£¿
-¿´¿´gitconfigµÄÄÚÈİÏÈ£º
+æå®šä»€ä¹ˆäº†ï¼Ÿ
+çœ‹çœ‹gitconfigçš„å†…å®¹å…ˆï¼š
 Perl code
 #!/bin/sh
 
-# È«¾ÖÌá½»ÓÃ»§ÃûÓëÓÊÏä
+# å…¨å±€æäº¤ç”¨æˆ·åä¸é‚®ç®±
 git config --global user.name "Yuchen Deng"
-git config --global user.email ÓÊÏäÃû@gmail.com
+git config --global user.email é‚®ç®±å@gmail.com
 
-# ÖĞÎÄ±àÂëÖ§³Ö
+# ä¸­æ–‡ç¼–ç æ”¯æŒ
 echo "export LESSCHARSET=utf-8" > $HOME/.profile
 git config --global gui.encoding utf-8
 git config --global i18n.commitencoding utf-8
 git config --global i18n.logoutputencoding gbk
 
-# È«¾Ö±à¼­Æ÷£¬Ìá½»Ê±½«COMMIT_EDITMSG±àÂë×ª»»³ÉUTF-8¿É±ÜÃâÂÒÂë
+# å…¨å±€ç¼–è¾‘å™¨ï¼Œæäº¤æ—¶å°†COMMIT_EDITMSGç¼–ç è½¬æ¢æˆUTF-8å¯é¿å…ä¹±ç 
 git config --global core.editor notepad2
 
-# ²îÒì¹¤¾ßÅäÖÃ
+# å·®å¼‚å·¥å…·é…ç½®
 git config --global diff.external git-diff-wrapper.sh
 git config --global diff.tool tortoise
 git config --global difftool.tortoise.cmd 'TortoiseMerge -base:"$LOCAL" -theirs:"$REMOTE"'
 git config --global difftool.prompt false
 
-# ºÏ²¢¹¤¾ßÅäÖÃ
+# åˆå¹¶å·¥å…·é…ç½®
 git config --global merge.tool tortoise
 git config --global mergetool.tortoise.cmd 'TortoiseMerge -base:"$BASE" -theirs:"$REMOTE" -mine:"$LOCAL" -merged:"$MERGED"'
 git config --global mergetool.prompt false
 
-# ±ğÃûÉèÖÃ
+# åˆ«åè®¾ç½®
 git config --global alias.dt difftool
 git config --global alias.mt mergetool
 
-# È¡Ïû $ git gui µÄÖĞÎÄ½çÃæ£¬¸ÄÓÃÓ¢ÎÄ½çÃæ¸üÒ×¶®
+# å–æ¶ˆ $ git gui çš„ä¸­æ–‡ç•Œé¢ï¼Œæ”¹ç”¨è‹±æ–‡ç•Œé¢æ›´æ˜“æ‡‚
 if [ -f "/share/git-gui/lib/msgs/zh_cn.msg" ]; then
 rm /share/git-gui/lib/msgs/zh_cn.msg
 fi
 
 
 
-Õâ¸ö½Å±¾½â¾öÁË£º
-1. ÖĞÎÄÂÒÂë
-2. Í¼ĞÎ»¯Diff/Merge
-3. »¹Ô­Ó¢ÎÄ½çÃæ£¬¸üºÃ¶®
-ÆäÖĞ×îÓĞ¼ÛÖµµÄ£¬¾ÍÊÇGitµÄDiff/MergeÍâ²¿¹¤¾ßTortoiseMergeÅäÖÃ¡£
-°²×°MsysGitºó£¬Ò»¸öÃüÁî¼´¿ÉÍê³ÉÅäÖÃ¡£
-ÊÊÓÃÓÚMsysGit°²×°°æÓëÂÌÉ«°æ¡£
+è¿™ä¸ªè„šæœ¬è§£å†³äº†ï¼š
+1. ä¸­æ–‡ä¹±ç 
+2. å›¾å½¢åŒ–Diff/Merge
+3. è¿˜åŸè‹±æ–‡ç•Œé¢ï¼Œæ›´å¥½æ‡‚
+å…¶ä¸­æœ€æœ‰ä»·å€¼çš„ï¼Œå°±æ˜¯Gitçš„Diff/Mergeå¤–éƒ¨å·¥å…·TortoiseMergeé…ç½®ã€‚
+å®‰è£…MsysGitåï¼Œä¸€ä¸ªå‘½ä»¤å³å¯å®Œæˆé…ç½®ã€‚
+é€‚ç”¨äºMsysGitå®‰è£…ç‰ˆä¸ç»¿è‰²ç‰ˆã€‚
 
-ÍøÉÏ¹ØÓÚÎªGitÅäÖÃTortoiseMergeÀ´½øĞĞdiffºÍmergeµÄ½éÉÜ¼¸ºõÃ»ÓĞ£¨·´ÕıÎÒÃ»ÓĞËÑË÷µ½£©£¬µ«ÎÒÈÏÎªTortoiseMergeÊÇ×îºÃÓÃµÄ£¬µ¥ÎÄ¼ş£¨Ò»¸ö¿ÉÖ´ĞĞ³ÌĞò£¬ÂÌÉ«°æ£¬ÏÂÔØµØÖ·£ºhttp://sourceforge.net/projects/tortoisesvn/files/Tools/1.6.7/TortoiseDiff-1.6.7.zip/download)£¬ÊµÔÚÊÇ¾øÅä£¡
+ç½‘ä¸Šå…³äºä¸ºGité…ç½®TortoiseMergeæ¥è¿›è¡Œdiffå’Œmergeçš„ä»‹ç»å‡ ä¹æ²¡æœ‰ï¼ˆåæ­£æˆ‘æ²¡æœ‰æœç´¢åˆ°ï¼‰ï¼Œä½†æˆ‘è®¤ä¸ºTortoiseMergeæ˜¯æœ€å¥½ç”¨çš„ï¼Œå•æ–‡ä»¶ï¼ˆä¸€ä¸ªå¯æ‰§è¡Œç¨‹åºï¼Œç»¿è‰²ç‰ˆï¼Œä¸‹è½½åœ°å€ï¼šhttp://sourceforge.net/projects/tortoisesvn/files/Tools/1.6.7/TortoiseDiff-1.6.7.zip/download)ï¼Œå®åœ¨æ˜¯ç»é…ï¼
 
-ÎªÊ²Ã´²»Ê¹ÓÃTortoiseGit£¿ËûÃÇ²»ÊÇ¼¯³ÉÁËTortoiseMergeÂğ£¿
-ÀíÓÉ£ºTortoiseGitÖ»ÓĞWindows²ÅÓĞ£¬ÎÒ¸üÏ²»¶git gui£¬½áºÏgitk£¬¿çÆ½Ì¨ÊµÔÚÏàÍ¬µÄ²Ù×÷·½Ê½£¬¸üË¬£¡
-Èç¹ûÄúÀë²»¿ªTortoiseGit£¬ÕâÆªÎÄÕÂ¾ÍÖ±½ÓÎŞÊÓ°É¡£
+ä¸ºä»€ä¹ˆä¸ä½¿ç”¨TortoiseGitï¼Ÿä»–ä»¬ä¸æ˜¯é›†æˆäº†TortoiseMergeå—ï¼Ÿ
+ç†ç”±ï¼šTortoiseGitåªæœ‰Windowsæ‰æœ‰ï¼Œæˆ‘æ›´å–œæ¬¢git guiï¼Œç»“åˆgitkï¼Œè·¨å¹³å°å®åœ¨ç›¸åŒçš„æ“ä½œæ–¹å¼ï¼Œæ›´çˆ½ï¼
+å¦‚æœæ‚¨ç¦»ä¸å¼€TortoiseGitï¼Œè¿™ç¯‡æ–‡ç« å°±ç›´æ¥æ— è§†å§ã€‚
