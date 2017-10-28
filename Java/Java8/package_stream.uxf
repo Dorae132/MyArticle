@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1230</x>
-      <y>530</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1179</x>
+      <y>504</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 Stream</panel_attributes>
@@ -16,10 +16,10 @@ Stream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1150</x>
-      <y>440</y>
-      <w>150</w>
-      <h>110</h>
+      <x>1107</x>
+      <y>423</y>
+      <w>135</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;90.0</additional_attributes>
@@ -27,10 +27,10 @@ Stream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>950</x>
-      <y>530</y>
-      <w>110</w>
-      <h>40</h>
+      <x>927</x>
+      <y>504</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 LongStream</panel_attributes>
@@ -39,10 +39,10 @@ LongStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1370</x>
-      <y>530</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1305</x>
+      <y>504</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 DoubleStream</panel_attributes>
@@ -51,10 +51,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>990</x>
-      <y>440</y>
-      <w>190</w>
-      <h>110</h>
+      <x>963</x>
+      <y>423</y>
+      <w>171</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>170.0;10.0;10.0;90.0</additional_attributes>
@@ -62,10 +62,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1150</x>
-      <y>440</y>
-      <w>280</w>
-      <h>110</h>
+      <x>1107</x>
+      <y>423</y>
+      <w>252</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;260.0;90.0</additional_attributes>
@@ -74,9 +74,9 @@ DoubleStream</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>720</x>
-      <y>420</y>
-      <w>100</w>
-      <h>30</h>
+      <y>405</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/PipelineHelper/
 </panel_attributes>
@@ -85,10 +85,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>540</y>
-      <w>100</w>
-      <h>30</h>
+      <x>684</x>
+      <y>513</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/AbstractPipeline/
 </panel_attributes>
@@ -98,9 +98,9 @@ DoubleStream</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>440</y>
-      <w>70</w>
-      <h>120</h>
+      <y>423</y>
+      <w>63</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;100.0</additional_attributes>
@@ -109,9 +109,9 @@ DoubleStream</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>440</y>
-      <w>450</w>
-      <h>120</h>
+      <y>423</y>
+      <w>405</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>430.0;10.0;10.0;100.0</additional_attributes>
@@ -119,10 +119,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>620</y>
-      <w>100</w>
-      <h>30</h>
+      <x>612</x>
+      <y>585</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/LongPipeline/
 </panel_attributes>
@@ -131,10 +131,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>560</y>
-      <w>100</w>
-      <h>80</h>
+      <x>648</x>
+      <y>531</y>
+      <w>90</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;60.0</additional_attributes>
@@ -142,10 +142,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>560</y>
-      <w>370</w>
-      <h>80</h>
+      <x>648</x>
+      <y>531</y>
+      <w>333</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>350.0;10.0;10.0;60.0</additional_attributes>
@@ -153,10 +153,10 @@ DoubleStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1090</x>
-      <y>530</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1053</x>
+      <y>504</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 IntStream</panel_attributes>
@@ -165,10 +165,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1130</x>
-      <y>440</y>
-      <w>50</w>
-      <h>110</h>
+      <x>1089</x>
+      <y>423</y>
+      <w>45</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>30.0;10.0;10.0;90.0</additional_attributes>
@@ -176,10 +176,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>560</y>
-      <w>80</w>
-      <h>80</h>
+      <x>711</x>
+      <y>531</y>
+      <w>72</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;60.0;60.0</additional_attributes>
@@ -188,9 +188,9 @@ IntStream</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>720</x>
-      <y>620</y>
-      <w>100</w>
-      <h>30</h>
+      <y>585</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/IntPipeline/
 </panel_attributes>
@@ -199,10 +199,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>760</x>
-      <y>560</y>
-      <w>400</w>
-      <h>80</h>
+      <x>756</x>
+      <y>531</y>
+      <w>360</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>380.0;10.0;10.0;60.0</additional_attributes>
@@ -210,10 +210,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>620</y>
-      <w>130</w>
-      <h>30</h>
+      <x>837</x>
+      <y>585</y>
+      <w>117</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/ReferencePipeline/
 </panel_attributes>
@@ -222,10 +222,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>560</y>
-      <w>230</w>
-      <h>80</h>
+      <x>711</x>
+      <y>531</y>
+      <w>207</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;210.0;60.0</additional_attributes>
@@ -233,10 +233,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>910</x>
-      <y>560</y>
-      <w>390</w>
-      <h>80</h>
+      <x>891</x>
+      <y>531</y>
+      <w>351</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>370.0;10.0;10.0;60.0</additional_attributes>
@@ -244,10 +244,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1000</x>
-      <y>620</y>
-      <w>100</w>
-      <h>30</h>
+      <x>972</x>
+      <y>585</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/DoublePipeline/
 </panel_attributes>
@@ -257,9 +257,9 @@ IntStream</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>560</y>
-      <w>350</w>
-      <h>80</h>
+      <y>531</y>
+      <w>315</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;330.0;60.0</additional_attributes>
@@ -267,10 +267,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1030</x>
-      <y>560</y>
-      <w>420</w>
-      <h>80</h>
+      <x>999</x>
+      <y>531</y>
+      <w>378</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>400.0;10.0;10.0;60.0</additional_attributes>
@@ -278,10 +278,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>500</x>
-      <y>420</y>
-      <w>100</w>
-      <h>30</h>
+      <x>522</x>
+      <y>405</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/AbstractTask/
 </panel_attributes>
@@ -290,10 +290,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>540</y>
-      <w>180</w>
-      <h>30</h>
+      <x>432</x>
+      <y>513</y>
+      <w>162</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/AbstractShortCircuitTask/
 </panel_attributes>
@@ -302,10 +302,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>440</y>
-      <w>80</w>
-      <h>120</h>
+      <x>504</x>
+      <y>423</y>
+      <w>72</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;100.0</additional_attributes>
@@ -313,10 +313,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>420</y>
-      <w>150</w>
-      <h>30</h>
+      <x>882</x>
+      <y>405</y>
+      <w>135</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/AbstractSpinedBuffer/
 </panel_attributes>
@@ -325,10 +325,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>396</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>DistinctOps</panel_attributes>
     <additional_attributes/>
@@ -336,10 +336,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>513</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>FindOps</panel_attributes>
     <additional_attributes/>
@@ -347,10 +347,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>630</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>ForEachOps</panel_attributes>
     <additional_attributes/>
@@ -358,10 +358,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>747</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>MatchOps</panel_attributes>
     <additional_attributes/>
@@ -369,10 +369,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>250</y>
-      <w>100</w>
-      <h>30</h>
+      <x>396</x>
+      <y>252</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>Collectors</panel_attributes>
     <additional_attributes/>
@@ -380,10 +380,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>500</x>
-      <y>250</y>
-      <w>100</w>
-      <h>30</h>
+      <x>522</x>
+      <y>252</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>Nodes</panel_attributes>
     <additional_attributes/>
@@ -391,10 +391,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>880</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>864</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>ReduceOps</panel_attributes>
     <additional_attributes/>
@@ -402,10 +402,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1010</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>981</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>SliceOps</panel_attributes>
     <additional_attributes/>
@@ -413,10 +413,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1140</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>1098</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>SortedOps</panel_attributes>
     <additional_attributes/>
@@ -424,10 +424,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>420</y>
-      <w>180</w>
-      <h>30</h>
+      <x>279</x>
+      <y>405</y>
+      <w>162</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/AbstractSpinedBuffer/
 </panel_attributes>
@@ -436,10 +436,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>540</y>
-      <w>100</w>
-      <h>30</h>
+      <x>306</x>
+      <y>513</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>SpinedBuffer</panel_attributes>
     <additional_attributes/>
@@ -447,21 +447,21 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>440</y>
-      <w>50</w>
-      <h>120</h>
+      <x>342</x>
+      <y>423</y>
+      <w>27</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>30.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>360</y>
-      <w>260</w>
-      <h>200</h>
+      <x>342</x>
+      <y>351</y>
+      <w>234</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>240.0;10.0;10.0;180.0</additional_attributes>
@@ -469,10 +469,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>640</x>
-      <y>90</y>
-      <w>120</w>
-      <h>30</h>
+      <x>648</x>
+      <y>108</y>
+      <w>108</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>StreamOpFlag</panel_attributes>
     <additional_attributes/>
@@ -480,10 +480,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
-      <y>250</y>
-      <w>100</w>
-      <h>30</h>
+      <x>639</x>
+      <y>252</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>Streams</panel_attributes>
     <additional_attributes/>
@@ -491,10 +491,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>790</x>
-      <y>90</y>
-      <w>120</w>
-      <h>30</h>
+      <x>783</x>
+      <y>108</y>
+      <w>108</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>StreamShape</panel_attributes>
     <additional_attributes/>
@@ -502,10 +502,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>250</y>
-      <w>140</w>
-      <h>30</h>
+      <x>765</x>
+      <y>252</y>
+      <w>126</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>StreamSpliterators</panel_attributes>
     <additional_attributes/>
@@ -513,10 +513,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1280</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>1224</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>StreamSupport</panel_attributes>
     <additional_attributes/>
@@ -524,10 +524,10 @@ IntStream</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1330</x>
-      <y>280</y>
-      <w>110</w>
-      <h>70</h>
+      <x>1269</x>
+      <y>279</y>
+      <w>99</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>90.0;10.0;10.0;50.0</additional_attributes>
@@ -535,10 +535,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1410</x>
-      <y>160</y>
-      <w>100</w>
-      <h>30</h>
+      <x>1341</x>
+      <y>171</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>Tripwire</panel_attributes>
     <additional_attributes/>
@@ -546,10 +546,10 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>360</y>
-      <w>170</w>
-      <h>30</h>
+      <x>630</x>
+      <y>351</y>
+      <w>153</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/AbstractShortCircuitTask/
 
@@ -559,10 +559,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>380</y>
-      <w>180</w>
-      <h>60</h>
+      <x>558</x>
+      <y>369</y>
+      <w>162</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>160.0;10.0;10.0;40.0</additional_attributes>
@@ -570,10 +570,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>780</x>
-      <y>310</y>
-      <w>170</w>
-      <h>30</h>
+      <x>774</x>
+      <y>306</y>
+      <w>153</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>/ForkJoinTask/
 
@@ -583,10 +583,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>330</y>
-      <w>180</w>
-      <h>50</h>
+      <x>702</x>
+      <y>324</y>
+      <w>162</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>160.0;10.0;10.0;30.0</additional_attributes>
@@ -594,10 +594,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>340</y>
-      <w>120</w>
-      <h>30</h>
+      <x>423</x>
+      <y>333</y>
+      <w>108</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
@@ -605,10 +605,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1110</x>
-      <y>410</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1071</x>
+      <y>396</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 BaseStream</panel_attributes>
@@ -617,10 +617,10 @@ BaseStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1140</x>
-      <y>330</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1098</x>
+      <y>324</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 TerminalOp</panel_attributes>
@@ -629,10 +629,10 @@ TerminalOp</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1280</x>
-      <y>330</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1224</x>
+      <y>324</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 TerminalSink</panel_attributes>
@@ -641,10 +641,10 @@ TerminalSink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1380</x>
-      <y>250</y>
-      <w>110</w>
-      <h>40</h>
+      <x>1314</x>
+      <y>252</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 Supplier
@@ -654,10 +654,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>330</y>
-      <w>110</w>
-      <h>40</h>
+      <x>513</x>
+      <y>324</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 Consumer
@@ -667,10 +667,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>330</y>
-      <w>110</w>
-      <h>40</h>
+      <x>333</x>
+      <y>324</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 Sink</panel_attributes>
@@ -679,10 +679,10 @@ Sink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>330</y>
-      <w>110</w>
-      <h>40</h>
+      <x>207</x>
+      <y>324</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 Node</panel_attributes>
@@ -691,10 +691,10 @@ Node</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>330</y>
-      <w>110</w>
-      <h>40</h>
+      <x>72</x>
+      <y>324</y>
+      <w>99</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.
 Collector</panel_attributes>
