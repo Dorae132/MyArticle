@@ -1,0 +1,28 @@
+@startuml
+scale 600*600
+interface Parent {
+	welcome
+}
+interface Child {
+	welcome
+}
+class ChildImpl {
+	welcome from Child
+}
+class ParentImpl {
+	welcome from Parent
+}
+class OverridingParent {
+	welcome
+}
+class OverridingChild {
+	welcome from Parent
+}
+
+Parent <|-- Child
+Child <|-- ChildImpl
+Parent <|.. ParentImpl
+ParentImpl <|-- OverridingParent
+Child <|.. OverridingChild
+OverridingParent <|-- OverridingChild
+@enduml

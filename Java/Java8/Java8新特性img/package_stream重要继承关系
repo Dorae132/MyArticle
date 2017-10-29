@@ -1,0 +1,33 @@
+@startuml
+scale 600*600
+
+interface AutoCloseable
+interface BaseStream
+class PipelineHelper
+interface DoubleStream
+interface Stream
+interface LongStream
+interface IntStream
+class AbstractPipeline
+class DoublePipeline
+class ReferencePipeline
+class LongPipeline
+class IntPipeline
+
+AutoCloseable <|-- BaseStream
+BaseStream <|-- DoubleStream
+BaseStream <|-- Stream
+BaseStream <|-- LongStream
+BaseStream <|-- IntStream
+BaseStream <|.. AbstractPipeline
+PipelineHelper <|-- AbstractPipeline
+DoubleStream <|.. DoublePipeline
+AbstractPipeline <|-- DoublePipeline
+Stream <|.. ReferencePipeline
+AbstractPipeline <|-- ReferencePipeline
+LongStream <|.. LongPipeline
+AbstractPipeline <|-- LongPipeline
+AbstractPipeline <|-- IntPipeline
+IntStream <|.. IntPipeline
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+scale 600*600
+
+class PipelineHelper
+interface BaseStream
+interface Stream
+class AbstractPipeline
+class ReferencePipeline
+class Head
+class StatelessOp
+class StatefuleOp
+
+BaseStream <|-- Stream
+PipelineHelper <|-- AbstractPipeline
+BaseStream <|.. AbstractPipeline
+AbstractPipeline <|-- ReferencePipeline
+Stream <|.. ReferencePipeline
+ReferencePipeline <|-- Head
+ReferencePipeline <|-- StatelessOp
+ReferencePipeline <|-- StatefuleOp
+
+@enduml
