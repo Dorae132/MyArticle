@@ -1,5 +1,5 @@
 @startuml
-scale 600*600
+scale 1600*1600
 interface Parent {
 	welcome
 }

@@ -1,5 +1,5 @@
 @startuml
-scale 900*900
+scale 1900*1900
 
 title Stream并行计算主要逻辑
 
@@ -9,10 +9,10 @@ if "分片大于阈值？" then
 	->[yes] "创建子任务"
 	--> "左右子节点交替fork与分解"
 
-	if "需要fork？" then
-		->[no] "加入当前线程的任务队列"
+	if "fork？" then
+		->[yes] "加入当前线程的任务队列"
 	else
-		->[yes] "调用Spliterator的estimateSize()，预估分片数据量"
+		->[no] "调用Spliterator的estimateSize()，预估分片数据量"
 	endif
 else
 	->[no] "doLeaf(完成最小任务单元计算)"
