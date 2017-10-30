@@ -1,0 +1,37 @@
+@startuml
+scale 900*900
+
+title Stream并行计算主要逻辑
+
+(*) --> "调用Spliterator的estimateSize()，预估分片数据量"
+--> "获得数据分片的阈值"
+if "分片大于阈值？" then
+	->[yes] "创建子任务"
+	--> "左右子节点交替fork与分解"
+	--> "调用Spliterator的estimateSize()，预估分片数据量"
+else
+	->[no] "doLeaf"
+	--> "tryComplete"
+endif
+
+if "pending == 0 ?" then
+	->[no] "pending--(原子操作),等待其他子节点"
+		
+else
+	->[yes] "onCompletion"
+endif
+
+if "叶子任务？" then
+	->[yes] "销毁中间数据"
+	--> "结束"
+else
+	->[no] "合并子节点结果"
+endif
+
+if "当前节点还有父任务？" then
+	->[no] "结束"
+else
+	->[yes] "递归调用父节点的onCompletion"
+endif
+
+@enduml
