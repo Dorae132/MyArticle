@@ -313,8 +313,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
-      <y>162</y>
+      <x>594</x>
+      <y>135</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -324,8 +324,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>612</x>
-      <y>162</y>
+      <x>711</x>
+      <y>135</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -335,8 +335,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>729</x>
-      <y>162</y>
+      <x>828</x>
+      <y>135</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -346,8 +346,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>162</y>
+      <x>945</x>
+      <y>135</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -357,8 +357,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
-      <y>207</y>
+      <x>594</x>
+      <y>180</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -368,8 +368,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>612</x>
-      <y>207</y>
+      <x>711</x>
+      <y>180</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -379,8 +379,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>963</x>
-      <y>162</y>
+      <x>828</x>
+      <y>90</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -390,8 +390,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
-      <y>117</y>
+      <x>594</x>
+      <y>90</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -401,8 +401,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>612</x>
-      <y>117</y>
+      <x>711</x>
+      <y>90</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -468,8 +468,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>729</x>
-      <y>207</y>
+      <x>828</x>
+      <y>180</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -490,8 +490,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>207</y>
+      <x>945</x>
+      <y>180</y>
       <w>126</w>
       <h>27</h>
     </coordinates>
@@ -501,8 +501,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>729</x>
-      <y>117</y>
+      <x>1242</x>
+      <y>324</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -523,8 +523,8 @@ IntStream</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>117</y>
+      <x>945</x>
+      <y>90</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -678,8 +678,8 @@ Collector</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1107</x>
-      <y>117</y>
+      <x>1098</x>
+      <y>99</y>
       <w>126</w>
       <h>63</h>
     </coordinates>
