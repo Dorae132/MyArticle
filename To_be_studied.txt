@@ -1,4 +1,16 @@
-redis
-rabitMQ
-dubbo
-zookeeper
+@startuml
+scale 600*600
+
+(*) --> stage0
+stage0 --> springboot
+stage0 --> dubbo
+stage0 --> zookeeper
+stage0 --> stage1
+stage1 --> redis
+stage1 --> rabitMQ
+stage1 --> kafka
+stage1 --> nsschudle
+stage1 --> mysql
+stage1 --> stage2
+
+@enduml
