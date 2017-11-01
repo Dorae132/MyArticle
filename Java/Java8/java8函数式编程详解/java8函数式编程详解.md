@@ -94,9 +94,9 @@ javax.swing.event.ChangeListener
 
 	public class Main {
 		public static void main(String[] args) {
-			Action action = doSomething -> System.out.println(doSomething);
+			Action action = System.out :: println;
 			action.execute("Hello World!");
-			test(doSomething -> System.out.println(doSomething), "Hello World!");
+			test(System.out :: println, "Hello World!");
 		}
 	
 		static void test(Action action, String str) {
