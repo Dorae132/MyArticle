@@ -12,5 +12,7 @@ stage1 --> kafka
 stage1 --> nsschudle
 stage1 --> mysql
 stage1 --> stage2
-
+stage2 --> HDFS
+stage2 --> TSDB
+stage2 --> 流式计算
 @enduml
