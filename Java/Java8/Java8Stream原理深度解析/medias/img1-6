@@ -1,0 +1,23 @@
+@startuml
+scale 600*600
+
+abstract class ForkJoinTask
+abstract class CountedCompleter
+abstract class AbstractTask
+abstract class AbstractShortCircuitTask
+class FindTask
+class ForEachTask
+class ReduceTask
+class MatchTask
+class ForEachOrderedTask
+
+ForkJoinTask <|-- CountedCompleter
+CountedCompleter <|-- AbstractTask
+CountedCompleter <|-- ForEachTask
+CountedCompleter <|-- ForEachOrderedTask
+AbstractTask <|-- AbstractShortCircuitTask
+AbstractTask <|-- ReduceTask
+AbstractShortCircuitTask <|-- FindTask
+AbstractShortCircuitTask <|-- MatchTask
+
+@enduml
