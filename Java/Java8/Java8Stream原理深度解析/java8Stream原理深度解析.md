@@ -13,7 +13,7 @@
 
 表1-1 Stream的常用操作分类([<font size=1>表格引自这里</font>](http://www.cnblogs.com/CarpenterLee/p/6637118.html))
 
-![图1-1](./medias/form1-1.png)
+![表1-1](./medias/form1-1.png)
 
 如表1-1中所示，**Stream中的操作可以分为两大类**：中间操作与结束操作，中间操作只是对操作进行了记录，只有结束操作才会触发实际的计算（即惰性求值），这也是Stream在迭代大集合时高效的原因之一。中间操作又可以分为无状态（Stateless）操作与有状态（Stateful）操作，前者是指元素的处理不受之前元素的影响；后者是指该操作只有拿到所有元素之后才能继续下去。结束操作又可以分为短路与非短路操作，这个应该很好理解，前者是指遇到某些符合条件的元素就可以得到最终结果；而后者是指必须处理所有元素才能得到最终结果。
 
@@ -149,7 +149,7 @@ code_4(AbstractPipeline.AbstractPipeline())
 
 表1-2
 
-![](./medias/form1-2.png)
+![表1-2](./medias/form1-2.png)
 
 现在转向code_3，可以看出，在satge链中，每一步都包含了opWrapSink()。当调用终结操作时，将会触发code_5从最后一个stage（终结操作产生的satge）开始，递归产生图1-4所示的结构。
 
@@ -166,7 +166,7 @@ code_5(AbstractPipeline.wrapSink())
         return (Sink<P_IN>) sink;
     }
 
-![](./medias/img1-4.png)
+![图1-4](./medias/img1-4.png)
 
 图1-4
 
@@ -214,7 +214,7 @@ code_7
 
 那么最终产生的stage链与sink的结构如图1-5所示，因为此时stage链中有一个有状态操作（sorted()），也就是说在这里必须处理完所有元素才能进行下一步操作。那么此时无论是并行还是串行，此时都会产生两个sink链，也就是代表了两次迭代，才产生了最终结果。
 
-![](./medias/img1-5.png)
+![图1-5](./medias/img1-5.png)
 
 图1-5
 
@@ -243,7 +243,7 @@ code_9(ReduceOp.evaluateParallel())
 
 其实Stream的并行处理是基于ForkJoin框架的，相关类与接口的结构如图1-6所示。其中AbstractShortCircuitTask用于处理短路操作，其他相关操作类似，会产生对应的Task。
 
-![](./medias/img1-6.png)
+![图1-6](./medias/img1-6.png)
 
 图1-6
 
@@ -338,7 +338,7 @@ code_11(AbstractTask.compute())
         task.tryComplete();
     }
 
-![](./medias/img1-7.png)
+![图1-7](./medias/img1-7.png)
 
 图1-7
 
