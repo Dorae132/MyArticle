@@ -12,7 +12,13 @@ stage1 --> kafka
 stage1 --> nsschudle
 stage1 --> mysql
 stage1 --> stage2
+stage2 --> JDK源码
+stage2 --> JVM
+stage2 --> tomcat
 stage2 --> HDFS
 stage2 --> TSDB
 stage2 --> 流式计算
+stage2 --> stage3
+stage3 --> 音频处理
+stage3 --> 图像处理
 @enduml
