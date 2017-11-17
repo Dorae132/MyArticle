@@ -1,5 +1,5 @@
 @startuml
-scale 600*600
+scale 1000*1000
 
 (*) --> stage0
 stage0 --> springboot
@@ -7,6 +7,7 @@ stage0 --> dubbo
 stage0 --> zookeeper
 stage0 --> stage1
 stage1 --> redis
+stage1 --> memcached
 stage1 --> rabitMQ
 stage1 --> kafka
 stage1 --> nsschudle
