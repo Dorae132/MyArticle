@@ -4,6 +4,7 @@ scale 600*600
 (*) --> stage0
 stage0 --> springboot
 stage0 --> dubbo
+dubbo --> jboot
 stage0 --> zookeeper
 stage0 --> stage1
 stage1 --> redis
