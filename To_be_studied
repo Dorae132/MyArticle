@@ -2,17 +2,20 @@
 scale 1000*1000
 
 (*) --> stage0
-stage0 --> springboot
+stage0 --> springboot #red
 stage0 --> dubbo
 dubbo --> jboot
 stage0 --> zookeeper
 stage0 --> stage1
 stage1 --> redis
 stage1 --> memcached
-stage1 --> rabitMQ
+stage1 --> rabitMQ #red
 stage1 --> kafka
 stage1 --> nsschudle
 stage1 --> mysql
+stage1 --> akka
+stage1 --> 电商前后台类目组织关系
+stage1 --> 数据结构
 stage1 --> stage2
 stage2 --> JDK源码
 stage2 --> JVM
@@ -24,4 +27,5 @@ stage2 --> stage3
 stage3 --> 音频处理
 stage3 --> 图像处理
 stage3 --> 字节码原理
+
 @enduml
